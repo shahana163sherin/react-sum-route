@@ -1,5 +1,5 @@
 // import Clock from "./Components/clock";
-// import TodoCounter from "./Components/todo";
+import TodoCounter from "./Components/todo";
 // import Counter from './Components/CounterTodo'
 // import Home from './Components/home'
 // import Login from './Components/login'
@@ -7,10 +7,10 @@
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 // import {Routes,Route, Link, useNavigate} from 'react-router-dom'
-import { Routes,Route } from 'react-router-dom';
-import Page1 from './Components/page1';
-import Page2 from './Components/page2'
-import Page3 from './Components/page3';
+// import { Routes,Route } from 'react-router-dom';
+// import Page1 from './Components/page1';
+// import Page2 from './Components/page2'
+// import Page3 from './Components/page3';
 const App = () =>{
   // const navigate=useNavigate()
 
@@ -24,6 +24,7 @@ const App = () =>{
     <>
     {/* <Counter/> */}
     {/* <TodoCounter/> */}
+    <TodoCounter/>
        {/* <Clock/> */}
        {/* <nav>
         <li>
@@ -33,18 +34,18 @@ const App = () =>{
 
         </li>
        </nav> */}
-
+{/* 
        <Routes>
          <Route path="/" element ={<Page1/>}/> 
         <Route path="/page2" element={<Page2/>}/>
-        <Route path="/page3" element={<Page3/>}/>
+        <Route path="/page3" element={<Page3/>}/> */}
         {/* <Route path="/home" element={<Home/>}/>
         <Route path="/" element={<Login/>}/>
         <Route path="/cart" element={<Cart/>}/> */}
        
 
 
-       </Routes>
+       {/* </Routes> */}
        {/* <ToastContainer position="top-center" autoClose={2000} /> */}
        
     </>
